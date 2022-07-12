@@ -4,7 +4,7 @@
 # Project Description
 
 # Features
-  Authentication feature.
-  Check if needed premissons are granted, if not ask user to enable them (Premission Handler). 
-  Set detection interval (between 10 to 30 seconds).
-  Collect Data in offline mode, then if the user become online a synchronization process with the server will take place.
+  1. Authentication feature.
+  2. Check if needed premissons are granted, if not ask user to enable them (Premission Handler). 
+  3. Set detection interval (between 10 to 30 seconds).
+  4. Collect Data in offline mode, then if the user become online a synchronization process with the server will take place.
