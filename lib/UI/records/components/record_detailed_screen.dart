@@ -46,7 +46,7 @@ class RecordDetailsScreen extends StatelessWidget {
               child: _buildBackArrow(context),
             ),
             const SizedBox(width: kDefaultMargin),
-            _buildDroneBasicInfo(),
+            _buildBasicInfo(),
           ],
         ),
         const SizedBox(height: kLargeMargin),
@@ -123,7 +123,7 @@ class RecordDetailsScreen extends StatelessWidget {
         ],
       );
 
-  Widget _buildDroneBasicInfo() {
+  Widget _buildBasicInfo() {
     bool _isUploaded = true;
     return Flexible(
       child: Column(
